@@ -3,9 +3,11 @@ body{
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
 }
 html{
     scroll-behavior:smooth;
+    overflow-x: hidden;
 }
 .container{
     margin-top: 2em;
@@ -21,6 +23,7 @@ h2, h4{
 .showcase{
     background: url("Photos/Mentors/case.jpg");
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     height: 47em;
 }
